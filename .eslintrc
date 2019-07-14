@@ -1,0 +1,30 @@
+{
+    "extends": [
+        "./node_modules/@klam09/lint-config/eslint.js"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": true,
+        "ecmaVersion": 2017,
+        "ecmaFeatures": {
+            "jsx": true,
+            "generators": false,
+            "objectLiteralDuplicateProperties": false
+        }
+    },
+    "rules": {
+        "compat/compat": "error",
+        "promise/param-names": "error",
+        "promise/always-return": "error",
+        "promise/catch-or-return": "error",
+        "promise/no-native": "off"
+    },
+    "plugins": ["import", "promise", "compat", "jsx-a11y", "react"],
+    "settings": {
+        "import/resolver": {
+            "webpack": {
+                "config": "configs/webpack.config.eslint.js"
+            }
+        }
+    }
+}

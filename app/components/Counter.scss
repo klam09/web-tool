@@ -1,0 +1,37 @@
+.backButton {
+    position: absolute;
+}
+
+.counter {
+    font-size: 10rem;
+    font-weight: bold;
+    left: 45%;
+    letter-spacing: -.025em;
+    position: absolute;
+    top: 30%;
+}
+
+.btnGroup {
+    margin: 0 auto;
+    position: relative;
+    top: 500px;
+    width: 480px;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 100px;
+    margin: 10px;
+    opacity: .7;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}

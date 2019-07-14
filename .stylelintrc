@@ -1,0 +1,3 @@
+{
+  "extends": ["./node_modules/@klam09/lint-config/stylelint.js"]
+}
